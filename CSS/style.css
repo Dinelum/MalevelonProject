@@ -1,0 +1,234 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", Verdana, sans-serif;
+  margin: 0;
+  background-color:rgb(16, 0, 88);
+}
+
+h1
+{
+  text-align:right;
+  padding-right: 50px;
+  color: gold  
+}
+
+h2
+{
+  color: rgb(237, 43, 5);
+  font-size: 30px;
+}
+
+p
+{
+  font-size: 20px;
+  color:gold;
+}
+
+
+/* index */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 99.1vh;
+  color: #fff;
+  background-image: url("../img/Malevelon-Wallpaper.jpg");
+  background-color:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-link {
+  display: inline-block;
+  margin-bottom: 409px;
+  font-weight: 800;
+  font-size: 60px;
+  outline: 5px #e13708 dotted;
+  outline-offset: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.link {
+  max-width: 550px;
+  width: 100%;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  outline: 5px #e13708 dotted;
+  outline-offset: 5px;
+}
+
+.link:not(:last-child) {
+  margin-right: 25px;
+}
+
+/* second page */
+
+.main-content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-image: url("../img/helldivers-about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  position:sticky;
+  top:0;
+  display: flex;
+  justify-content: space-between;
+  background-color:gold;
+  padding: 15px;
+}
+
+.second-container {
+  margin: 0 auto;
+  padding: 50px 10px;
+  min-height: 96.3vh;
+  width: 1600px;
+  background-image: url("../img/helldivers-wallpaper2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-link {
+  min-height: 20px;
+  display: flex;
+  outline: 5px #e13708 dotted;
+  text-align: center;
+  outline-offset: 5px;
+}
+
+.back-link-wrap{
+  margin-bottom: 25px;
+}
+
+.back-link {
+  display: inline-block;
+  text-align: center;
+  outline: 5px #e13708 dotted;
+  outline-offset: 5px;
+}
+
+.main-title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.list-wrapper {
+  outline: 5px gold solid;
+  background-color: rgb(16, 0, 88);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 600px 300px;
+  margin-bottom:50px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.card-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.card-list-item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+  color: #07d4e3;
+  
+}
+
+/* third page */
+.nav-list {
+  list-style:none;
+}
+
+.nav-list-item{
+  margin-right: 20px;
+  margin-bottom: 30px;
+  color:gold;
+}
+
+table{
+  border: 1px solid #000;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+tr, td, th {
+  border: 1px solid gold;
+  color:#e600ea;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.figcaption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px gold solid;
+  border-top: 0;
+  text-align: center;
+  color: #e600ea;
+}
+
+.figimage
+{
+  border: 1px solid gold;
+  border-radius: 5px;
+}
+
+.sodli,ul
+{
+  color:#ff17ec;
+  list-style:none;
+}
+
+.third-container {
+  margin: 0 auto;
+  padding: 50px 10px;
+  width: 1600px;
+  background-image: url("../img/helldivers-wallpaper3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
